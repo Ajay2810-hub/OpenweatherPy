@@ -187,7 +187,3 @@ Output:
     'zu': 'Zulu',
  }
 ```
-# OpenweatherPy
-# OpenweatherPy
-# OpenweatherPy
-# OpenweatherPy
