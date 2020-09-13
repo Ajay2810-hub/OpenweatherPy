@@ -1,5 +1,9 @@
 # OpenweatherPy
 
+[![Downloads](https://pepy.tech/badge/openweatherpy)](https://pepy.tech/project/openweatherpy)
+[![Downloads](https://pepy.tech/badge/openweatherpy/month)](https://pepy.tech/project/openweatherpy/month)
+[![Downloads](https://pepy.tech/badge/openweatherpy/week)](https://pepy.tech/project/openweatherpy/week)
+
 ## About
 This project retrieves the weather data from openweathermap.org in JSON format. It also provides data in different languages and in different units like Fahrenheit, Celsius and Kelvin. 
 
