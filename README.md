@@ -3,6 +3,7 @@
 [![Downloads](https://pepy.tech/badge/openweatherpy)](https://pepy.tech/project/openweatherpy)
 [![Downloads](https://pepy.tech/badge/openweatherpy/month)](https://pepy.tech/project/openweatherpy/month)
 [![Downloads](https://pepy.tech/badge/openweatherpy/week)](https://pepy.tech/project/openweatherpy/week)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## About
 This project retrieves the weather data from openweathermap.org in JSON format. It also provides data in different languages and in different units like Fahrenheit, Celsius and Kelvin. 
