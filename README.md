@@ -138,7 +138,7 @@ Output:
 
 ### Get weather report of location by Id
 ```python
- >>> manhattan = weather.getbyId(5125771) 
+ >>> manhattan = weather.getbyid(5125771) 
 ```
 
 ### Get weather report of a location by geographical co-ordinates i.e latitude and longitude
