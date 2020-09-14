@@ -173,7 +173,7 @@ Output:
 
 .. code-block:: python
 
-     manhattan = weather.byId(5125771) 
+     manhattan = weather.getbyid(5125771) 
 
 **Get weather report of a location by geographical co-ordinates i.e latitude and longitude**
 
