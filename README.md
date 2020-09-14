@@ -121,7 +121,7 @@ Output:
 
 ### Get average visibility meter
 ```python
- mumbai.id
+ mumbai.visibility
 ```
 Output:
 ```
