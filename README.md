@@ -7,13 +7,14 @@
 [![Latest PyPI version](https://img.shields.io/pypi/v/openweatherpy.svg)](https://pypi.org/project/openweatherpy)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/openweatherpy.svg)](https://pypi.org/project/openweatherpy)
 
-## Table of contents
- - [About](#about)
- - [Requirements](#requirements)
- - [Dependencies](#dependencies) 
- - [Installation](#installation)
- - [Usage](#usage) 
- - [License](#license) 
+Table of contents
+================
+ * [About](#about)
+ * [Requirements](#requirements)
+ * [Dependencies](#dependencies) 
+ * [Installation](#installation)
+ * [Usage](#usage) 
+ * [License](#license) 
 
 ## About
 This project retrieves the weather data from openweathermap.org in JSON format. It also provides data in different languages and in different units like Fahrenheit, Celsius and Kelvin. 
