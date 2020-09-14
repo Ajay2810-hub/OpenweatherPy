@@ -76,7 +76,7 @@ class WeatherPy:
        else:
           raise Exception(f'Query \'{q}\' not found!')
           
-   def byId( self, id ):
+   def getbyid( self, id ):
        complete_url = self.base_url + "appid=" + self.api_key + "&id=" + str(id) + "&units=" + self.unit + "&lang=" + self.lang
        data = self.data_request(complete_url)
        if data:
