@@ -51,10 +51,10 @@ Ensure that you have an openweathermap.org Api key. If not, then [click here](ht
 
 ### Get weather and it's description
 ```python
- mumbai = weather.query(city='mumbai')
+ >>> mumbai = weather.query(city='mumbai')
 
- mumbai.weather
- mumbai.description
+ >>> mumbai.weather
+ >>> mumbai.description
 ```
 
 Output:
@@ -65,11 +65,11 @@ Output:
 
 ### Get temperature, pressure, humidity, max temperature, min temperature
 ```python
- mumbai.temperature
- mumbai.pressure
- mumbai.humidity
- mumbai.temp_max
- mumbai.temp_min
+ >>> mumbai.temperature
+ >>> mumbai.pressure
+ >>> mumbai.humidity
+ >>> mumbai.temp_max
+ >>> mumbai.temp_min
 ```
 
 Output:
@@ -83,7 +83,7 @@ Output:
 
 ### Get co-ordinates
 ```python
- mumbai.co_ordinates
+ >>> mumbai.co_ordinates
 ```
 
 Output:
@@ -93,10 +93,10 @@ Output:
 
 ### Get cloudiness, sunrise time, sunset time and timezone
 ```python
- mumbai.clouds
- mumbai.sunrise
- mumbai.sunset
- mumbai.timezone
+ >>> mumbai.clouds
+ >>> mumbai.sunrise
+ >>> mumbai.sunset
+ >>> mumbai.timezone
 ```
 
 Output:
@@ -110,7 +110,7 @@ Note: The sunrise, sunset and timezone are as per UTC time.
 
 ### Get wind details
 ```python
- mumbai.wind
+ >>> mumbai.wind
 ```
 
 Output:
@@ -120,7 +120,7 @@ Output:
 
 ### Get city Id 
 ```python
- mumbai.id
+ >>> mumbai.id
 ```
 Output:
 ```
@@ -129,7 +129,7 @@ Output:
 
 ### Get average visibility meter
 ```python
- mumbai.visibility
+ >>> mumbai.visibility
 ```
 Output:
 ```
@@ -138,29 +138,29 @@ Output:
 
 ### Get weather report of location by Id
 ```python
- manhattan = weather.getbyId(5125771) 
+ >>> manhattan = weather.getbyId(5125771) 
 ```
 
 ### Get weather report of a location by geographical co-ordinates i.e latitude and longitude
 ```python
- delhi = weather.getbycoords(lat=28.67, lon=77.22) 
+ >>> delhi = weather.getbycoords(lat=28.67, lon=77.22) 
 ```
 
 ### Get weather report in different language
 The default language is english (en). 
 ```python
- weather = WeatherPy('API_KEY', lang='hi') 
+ >>> weather = WeatherPy('API_KEY', lang='hi') 
 ```
 
 ### Get weather report in different unit
 The default unit is Kelvin and optional are celsius and fahrenheit. 
 ```python
- weather = WeatherPy('API_KEY', unit='Fahrenheit', lang='hi') 
+ >>> weather = WeatherPy('API_KEY', unit='Fahrenheit', lang='hi') 
 ```
 
 ### Get all language codes
 ```
- weather.languages() 
+ >>> weather.languages() 
 ```
 
 Output:
