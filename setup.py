@@ -1,11 +1,11 @@
 from setuptools import setup
 
-with open("README.rst", "r") as fh:
+with open("README.rst", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
     name = 'openweatherpy',
-    version = '0.0.3',
+    version = '0.0.4',
     author="Ajay Lingayat",
     author_email="lingayatajay2810@gmail.com",
     description = "This module helps to retrieve weather reports from openweathermap.org.",
