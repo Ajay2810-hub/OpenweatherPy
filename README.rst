@@ -173,7 +173,7 @@ Output:
 
 .. code-block:: python
 
-     mumbai.id
+     mumbai.visibility
 
 Output:
 
