@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = 'openweatherpy',
-    version = '0.0.5',
+    version = '0.0.6',
     author="Ajay Lingayat",
     author_email="lingayatajay2810@gmail.com",
     description = "This module helps to retrieve weather reports from openweathermap.org.",
@@ -29,6 +29,7 @@ setup(
        "Programming Language :: Python :: 3.7",
        "Programming Language :: Python :: 3.8",
        "License :: OSI Approved :: MIT License",
+       "Natural Language :: English",
        "Operating System :: OS Independent",
     ],
     python_requires='>=3.0',
