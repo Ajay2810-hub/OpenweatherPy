@@ -133,7 +133,7 @@ Output:
 ```
 Output:
 ```
- 1275339
+ 2500
 ```
 
 **Get weather report of location by Id**
