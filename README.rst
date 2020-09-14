@@ -39,7 +39,7 @@ Requirements
 ------------
 
 Ensure that you have an openweathermap.org Api key. If not, then `click
-here <https://openweathermap.org/api>`__ to create one.
+here <https://openweathermap.org/api>`__ to generate one.
 
 ::
 
