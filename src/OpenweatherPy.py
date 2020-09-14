@@ -32,15 +32,14 @@ class WeatherPy:
        except Exception as e:
           print(e)
 
-   #def zip( self, code ):
+   #def byzip( self, code ):
        #complete_url = self.sample_url + "zip=" + str(code) + "&appid=" + self.api_key
       # print(complete_url)
-      # data = self.data_request(complete_url)
+     #  data = self.data_request(complete_url)
       # if data:
-          #data = Info(data)
-        #  return data
-     #  else:
-        #  raise Exception(f"Data for zipcode \'{code}\' not found!")
+      #    return data
+      # else:
+         # raise Exception(f"Data for zipcode \'{code}\' not found!")
    
    def query( self, **kwargs ):
        q = ''
@@ -133,7 +132,7 @@ class WeatherPy:
        }
        return langs
 
-   def coords( self, lon, lat ):
+   def getbycoords( self, lon, lat ):
        complete_url = self.base_url + "appid=" + self.api_key + "&lat=" + str(lat) + "&lon=" + str(lon) + "&units=" + self.unit + "&lang=" + self.lang
        data = self.data_request(complete_url)
        if data:
@@ -159,6 +158,7 @@ class Info:
        self.id = int(data["id"])
        self.timezone = int(data["timezone"])
        self.wind = self.wind(data)
+       self.visibility = int(data["visibility"])
 
    def main( self, data ):
        return data["main"]
@@ -171,5 +171,4 @@ class Info:
        
    def __str__( self ):
        return str(self.name)
-
 

@@ -168,6 +168,18 @@ Output:
 ::
 
      1275339
+     
+**Get average visibility meters**
+
+.. code-block:: python
+
+     mumbai.id
+
+Output:
+
+::
+
+     2500
 
 **Get weather report of location by Id**
 
@@ -179,7 +191,7 @@ Output:
 
 .. code-block:: python
 
-     delhi = weather.coords(lat=28.67, lon=77.22) 
+     delhi = weather.getbycoords(lat=28.67, lon=77.22) 
 
 **Get weather report in different language**
 
