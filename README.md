@@ -40,7 +40,7 @@ Ensure that you have an openweathermap.org Api key. If not, then [click here](ht
  >>> weather = WeatherPy('API_KEY')
 ```
 
-### Get report of a city or a country. 
+**Get report of a city or a country**
 ```python
  >>> city = weather.query(city='City Name') #Get weather report of a city
 
@@ -49,7 +49,7 @@ Ensure that you have an openweathermap.org Api key. If not, then [click here](ht
  >>> location = weather.query(city='City Name', country='Country Code') #City and Country keywords and can be used at a same time
 ```
 
-### Get weather and it's description
+**Get weather and it's description**
 ```python
  >>> mumbai = weather.query(city='mumbai')
 
@@ -63,7 +63,7 @@ Output:
  broken clouds
 ```
 
-### Get temperature, pressure, humidity, max temperature, min temperature
+**Get temperature, pressure, humidity, max temperature, min temperature**
 ```python
  >>> mumbai.temperature
  >>> mumbai.pressure
@@ -81,7 +81,7 @@ Output:
  288.71
 ```
 
-### Get co-ordinates
+**Get co-ordinates**
 ```python
  >>> mumbai.co_ordinates
 ```
@@ -91,7 +91,7 @@ Output:
  {'lon': 72.85, 'lat': 19.01}
 ```
 
-### Get cloudiness, sunrise time, sunset time and timezone
+**Get cloudiness, sunrise time, sunset time and timezone**
 ```python
  >>> mumbai.clouds
  >>> mumbai.sunrise
@@ -106,9 +106,9 @@ Output:
  1599916449
  19800
 ```
-Note: The sunrise, sunset and timezone are as per UTC time. 
+**Note**: The sunrise, sunset and timezone are as per UTC time. 
 
-### Get wind details
+**Get wind details**
 ```python
  >>> mumbai.wind
 ```
@@ -118,7 +118,7 @@ Output:
  {'speed': 4.1, 'deg': 150, 'gust': 9.3}
 ```
 
-### Get city Id 
+**Get city Id**
 ```python
  >>> mumbai.id
 ```
@@ -127,7 +127,7 @@ Output:
  1275339
 ```
 
-### Get average visibility meter
+**Get average visibility meter**
 ```python
  >>> mumbai.visibility
 ```
@@ -136,29 +136,31 @@ Output:
  1275339
 ```
 
-### Get weather report of location by Id
+**Get weather report of location by Id**
 ```python
  >>> manhattan = weather.getbyid(5125771) 
 ```
 
-### Get weather report of a location by geographical co-ordinates i.e latitude and longitude
+**Get weather report of a location by geographical co-ordinates i.e latitude and longitude**
 ```python
  >>> delhi = weather.getbycoords(lat=28.67, lon=77.22) 
 ```
 
-### Get weather report in different language
+**Get weather report in different language**
+
 The default language is english (en). 
 ```python
  >>> weather = WeatherPy('API_KEY', lang='hi') 
 ```
 
-### Get weather report in different unit
+**Get weather report in different unit**
+
 The default unit is Kelvin and optional are celsius and fahrenheit. 
 ```python
  >>> weather = WeatherPy('API_KEY', unit='Fahrenheit', lang='hi') 
 ```
 
-### Get all language codes
+**Get all language codes**
 ```
  >>> weather.languages() 
 ```
