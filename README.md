@@ -37,7 +37,7 @@ Ensure that you have an openweathermap.org Api key. If not, then [click here](ht
 
 ## Usage
 ```python
- >>> from OpenweatherPy import Weather
+ >>> from OpenweatherPy import WeatherPy
  >>> weather = WeatherPy('API_KEY')
 ```
 
